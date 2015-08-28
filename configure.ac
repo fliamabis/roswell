@@ -9,6 +9,7 @@ AC_CONFIG_FILES([Makefile src/Makefile])
 AC_CONFIG_SRCDIR([src/lsp.c])
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE([enable])
+# i am here
 
 # Checks for programs.
 AC_PROG_CC
@@ -33,5 +34,8 @@ AC_CHECK_HEADERS(windows.h)
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
+Hello world
+
+# fan
 
 AC_OUTPUT
